@@ -1,0 +1,94 @@
+body {
+  background-color: darkseagreen;
+  color: azure;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: 800;
+  line-height: 2;
+}
+
+footer {
+  text-align: center;
+  background-color: cadetblue;
+  padding: 13rem 10rem 5rem 10rem;
+  margin-top: 13rem;
+}
+
+.title {
+  margin: 8rem 0 0 0;
+  text-align: center;
+}
+
+.duck-family {
+  margin-top: 18%;
+  position: relative;
+}
+
+.duck-img {
+  position: absolute;
+  bottom: 6rem;
+  right: auto;
+}
+
+.duck-name {
+  text-align: justify;
+}
+
+.mini {
+  width: 2rem;
+}
+
+.small {
+  width: 4rem;
+}
+
+.medium {
+  width: 6rem;
+}
+
+.big {
+  width: 8rem;
+}
+
+.pressed {
+  filter: brightness(85%);
+  padding: 0.5rem;
+}
+
+.reference {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 1080px) {
+
+  h1 {
+    font-size: 4rem;
+    margin: 8rem 1rem 4rem 1rem;
+  }
+
+  .duck-img {
+    position: static;
+    margin-bottom: 2rem;
+  }
+
+  .duck-col {
+    margin: 1rem;
+  }
+
+  .duck-family {
+    margin-top: 10%;
+    margin-left: 27%;
+  }
+
+  footer {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 5rem;
+    margin-top: 10rem;
+    color: #eaf5ff;
+  }
+}
